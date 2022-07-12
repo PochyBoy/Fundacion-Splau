@@ -116,3 +116,145 @@ img.icon{
     
     
 }
+div.contertotal{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0;
+    
+}
+div.sub1{
+    width: 500px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    
+}
+div.sub2{
+    position: relative;
+}
+div.sub3{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 509px;
+}
+p.franjasu{
+   
+    text-align: center;
+    color: white;
+    font-weight: bolder
+}
+p.franjain{
+    text-align: center;
+    color: white;
+    font-weight: bolder
+}
+a.volvercentro{
+    position: absolute;
+    top: 100px;
+}
+
+
+div.sub2{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+/*div.rectangulofondo{
+    width: 1000px;
+    height: 500px;
+    background-color: #F5F5DD;
+    align-content: center;
+}*/
+div.rectsub{
+    width: 50%;
+    height: 250px;
+    background-color: #A62D2D;
+    position: relative;
+    top: 125px;
+    left: 250px;
+    
+}
+div.circu1{
+    
+    width: 100px;
+    height: 100px;
+    background-color: #F5F5DD;
+    border: 5px solid #A62D2D;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+div.circu2{
+    width: 100px;
+    height: 100px;
+    background-color: #F5F5DD;
+    border: 5px solid #A62D2D;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+div.circu3{
+    width: 100px;
+    height: 100px;
+    background-color: #F5F5DD;
+    border: 5px solid #A62D2D;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: -50px;
+}
+div.circu4{
+    width: 100px;
+    height: 100px;
+    background-color: #F5F5DD;
+    border: 5px solid #A62D2D;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    right: -50px;
+}
+div.cuadradotota1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    width: 1200px;
+    height: 900px;
+    align-items: center;
+}
+div.cuadrado1{
+    display: grid;
+    grid-row: auto;
+    top: 100px;
+}
+div.cuadraditos2{
+    
+    margin-top: 4px;
+}
+.fa-anchor{
+    font-size: 100px;
+    background-color: blue;
+    width: 125px;
+    color: #A62D2D;
+}
+.fa-anchor-circle-check{
+    font-size: 100px;
+    background-color: rgb(255, 102, 0);
+    color: #e2cdcd;
+}
+.fa-anchor-circle-exclamation{
+    font-size: 100px;
+    background-color: rgb(238, 3, 160);
+    color: #1d1919;
+}
+.fa-anchor-circle-xmark{
+    font-size: 100px;
+    background-color: rgb(214, 117, 38);
+    color: #4a40cf;
+}
