@@ -1,0 +1,119 @@
+body {
+    width: auto;
+    padding: 50px;
+    background-color: beige;
+}
+
+h1 {
+    color: brown;
+}
+.contenedor-gatito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gato {
+    padding: 5px;
+    display: grid;
+    grid-column: auto;
+    justify-items: center;
+}
+
+h1.fnt-blue{
+    color: #00304E;
+    font-size: 30px;
+}
+p.fnt-blue{
+    color: #252850;
+}
+span.fnt-red{
+    color: red;
+}
+#nombre_alumno{
+    text-decoration: underline rgb(0, 0, 0);
+}
+div.totalbici{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+div.ventabici{
+    background-color: white;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+}
+div.imagenbici{
+    
+    position: relative;
+    height: 150px;
+    width: 300px;
+    
+     
+}
+img.bici{
+    
+    
+    
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+div.letrabici{
+    margin-left: 5px;
+    display: grid;
+    grid-column: auto;
+    text-align: center;
+}
+p.precio{
+    font-size: 25px;
+    font-family: fantasy;
+    margin: 0;
+    margin-top: 15px;
+    
+}
+p.producto{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 0;
+}
+p.descipcion{
+    color: rgb(110, 108, 108);
+}
+div.iconobici{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 300px;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    
+}
+div.icon1{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    align-content: center;
+    margin-left: 10px;
+    border-right: 1px solid rgb(153, 143, 143);
+    
+}
+div.icon2{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    align-content: center;
+    margin-left: 10px;
+    
+}
+img.icon{
+    position: absolute;
+    object-fit: cover;
+    width: 90%;
+    height: 90%;
+    
+    
+}
