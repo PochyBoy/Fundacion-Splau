@@ -258,3 +258,33 @@ div.cuadraditos2{
     background-color: rgb(214, 117, 38);
     color: #4a40cf;
 }
+ul.cuadrado {
+    list-style-type: square;
+  }
+  ul.cuadrado1 {
+    list-style: none;
+  }
+  ul.cuadrado2 {
+    list-style: decimal-leading-zero;
+  }
+  ul.cuadrado3 {
+    list-style: lower-latin;
+  }
+  p.loren1 {
+    font-family: 'Oldenburg'
+  }
+  p.lorem2{
+    font-family: 'Oldenburg'
+  }
+  p.loren1::first-line{
+    color: red;
+  }
+  p.lorem2::first-line{
+    color: red;
+  }
+  p.loren1::first-letter{
+    font-size: 50px;
+  }
+  p.lorem2::first-letter{
+    font-size: 50px;
+  }
